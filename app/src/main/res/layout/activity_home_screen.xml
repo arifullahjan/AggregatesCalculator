@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_alignParentTop="true"
+    android:layout_marginBottom="25dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.andriod.aggregatescalculator.HomeScreenActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculating aggregate for:"
+        android:id="@+id/headerTextView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25sp" />
+
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/headerTextView"
+            android:layout_marginTop="5dp"
+            android:text="NUST ENGINEERING"
+            android:id="@+id/buttonNust"
+            android:onClick="nust"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="UET "
+            android:id="@+id/buttonUet"
+            android:layout_below="@+id/buttonNust"
+            android:layout_centerHorizontal="true"
+            android:onClick="uet"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="FAST - NUCES"
+            android:id="@+id/buttonFast"
+            android:layout_below="@+id/buttonUet"
+            android:layout_centerHorizontal="true"
+            android:onClick="fast"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="GIKI"
+            android:id="@+id/buttonGiki"
+            android:layout_below="@+id/buttonFast"
+            android:layout_centerHorizontal="true"
+            android:onClick="giki"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="NUMS"
+            android:id="@+id/buttonNums"
+            android:layout_below="@+id/buttonGiki"
+            android:layout_centerHorizontal="true"
+            android:onClick="nums"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="ETEA"
+            android:id="@+id/buttonEtea"
+            android:layout_below="@+id/buttonNums"
+            android:layout_centerHorizontal="true"
+            android:onClick="etea"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Fast NU Test Score Calculator"
+            android:id="@+id/testScoreCalculator"
+            android:layout_below="@+id/buttonEtea"
+            android:layout_centerHorizontal="true"
+            android:onClick="fastTestScore"/>
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</ScrollView>
+
+</LinearLayout>
